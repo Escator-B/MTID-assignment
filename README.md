@@ -3,7 +3,7 @@ Individual project assignment
 
 CWIOT
 Schematic view
-![schematic view project's curcuit](images/Schematic_view_individual-project.png)
+![schematic view project's circuit](images/Schematic_view_individual-project.png)
 
 
 DWW
