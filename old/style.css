@@ -1,0 +1,76 @@
+/* reset predefined styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* set variables for colors and spaces */
+:root{
+
+    --c-main : #FF7400;
+    --c-sec-100 : #FFFFFF;
+    --c-sec-200 : #F9F9F9;
+    --c-sec-500 : #BABABA;
+    --c-sec-900 : #141414; 
+
+    --space-05 : .5em;
+    --space-1 : 1em;
+    --space-2 : 2em;
+    --space-3 : 3em;
+    --space-4 : 4em;
+
+}
+
+/* class utilities for flexbox */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+
+body {
+
+
+    /* base font size and family */
+    font-size : 16px;
+    font-family: "Inter", sans-serif;
+
+    /* how to use variables */
+    background-color : var(--c-sec-100);
+}
+
+.myButton {
+  background-color: rgb(130, 100, 55);
+  color: rgb(130, 100, 55);
+}
+
+canvas {
+  display: block;
+}

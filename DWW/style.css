@@ -1,0 +1,140 @@
+/* reset predefined styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* set variables for colors and spaces */
+:root{
+
+    --c-main : #FF7400;
+    --c-sec-100 : #FFFFFF;
+    --c-sec-200 : #F9F9F9;
+    --c-sec-500 : #BABABA;
+    --c-sec-900 : #141414; 
+
+    --space-05 : .5em;
+    --space-1 : 1em;
+    --space-2 : 2em;
+    --space-3 : 3em;
+    --space-4 : 4em;
+
+}
+
+/* class utilities for flexbox */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+body {
+
+
+    /* base font size and family */
+    font-size : 20px;
+    font-family: "Inter", sans-serif;
+
+    /* how to use variables */
+    background-color : var(--c-sec-100);
+}
+
+#display-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em 1em;
+}
+
+
+/* train again button*/
+#containerTrainButton {
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em 1em;
+
+}
+
+#trainButton {
+  background-color: rgb(130, 100, 55);
+  color: rgb(255 255 255);
+  padding: 1.5em;
+  
+}
+
+/* bottom buttons */
+.bottomButton {
+   font-family: "Italianno", cursive;
+   font-style: normal;
+   background-color: rgb(194, 161, 112);
+   font-size: 1.5em;
+   padding: 0.5em 1em;
+   align-items: center;
+}
+
+#containerBottomButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+
+#containerButtons {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-style: normal; 
+  background-color: rgb(225, 208, 183);
+
+  padding: .5em 0em;
+}
+
+/* move menu icon to the right corner */
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
